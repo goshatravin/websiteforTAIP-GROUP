@@ -1017,3 +1017,11 @@ textarea{
 form h3{
 	color:white;
 }
+input, textarea {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+  z-index: 10000000000000000;
+}
