@@ -1023,5 +1023,5 @@ input, textarea {
   -moz-user-select: text;
   -ms-user-select: text;
   user-select: text;
-  z-index: 10000000000000000;
+  z-index: 100000000000000000;
 }
