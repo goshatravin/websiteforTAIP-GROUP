@@ -167,6 +167,9 @@ a{
 /*media*/
 
 @media screen and (max-width: 700px){
+	 .ask p{
+	  	height:100%;
+	  }
      .main{
      	-webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
      	        clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
@@ -799,7 +802,7 @@ footer h4{
 
 .ask p{
 	
-	height: 70px;
+/*	height: 70px;*/
 	padding: 10px;
 	display: -webkit-box;
 	
@@ -988,6 +991,7 @@ iframe{
 	  .ask-form h3{
 	  	margin-top: 50px;
 	  }
+
 	}
 
 	.up{
@@ -1024,4 +1028,8 @@ input, textarea {
   -ms-user-select: text;
   user-select: text;
   z-index: 100000000000000000;
+}
+
+.row .entry{
+	text-align:center;
 }
